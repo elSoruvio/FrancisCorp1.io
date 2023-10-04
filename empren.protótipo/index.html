@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrancisCorporation</title>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <div class="navbar ">
+        <div class="content-header ">
+            <h1 class="logo">Francis<span>Corp</span></h1>
+            <nav>
+                <ul>
+                    <a  id ="inicio-button"target="_parent"href="#inicio"><li>Inicio</li></a>
+                    <a id="about"target="_parent"href="#info"><li>Sobre</li></a>
+                    <a id="membros-time"href="#members"><li>Membros</li></a>
+                    <a id="contacts"href="#members"><li>Contato</li></a>
+                </ul>
+            </nav>
+            <div class="nav-inner-container">
+                <img src="img/menu.png" alt="" class="menu-button">
+            </div>
+        </div>
+
+    </div>
+    <header id="inicio">
+        <div class="header-inner-content">
+            <div class="header-bottom-side">
+                <div class="header-bottom-side-left">
+                    <h2>Variedade é a nossa especialidade!</h2>
+                    <p>Encontre produtos de qualidade em um só lugar</p>
+                    <a  target="_parent" href="#grupos"><button id="enter-now">Confira agora &#8594;</button></a></div>
+                <div class="header-bottom-side-right">
+                <img src="img/logo.png" alt="imagem"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteudo principal -->
+    <main>
+        <div class=" gray-background">
+            <div class="page-content">
+                <div class="columns columns-3">
+                    <img src="/img/material2.jpg" alt="desenho">
+                    <img src="/img/tecnologia2.jpg" alt="jogo">
+                    <img src="/img/roupas.jpg" alt="rpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="grupos"class="page-content">
+                <h3 id="grupos"class="titulo-dos-grupos">Produtos recomendados</h3>
+                <div class="subtitulo-linha"></div>
+                <div class="columns columns-4">
+                    <div>
+                        <a target="_blank"href="http://127.0.0.1:5501/chinelas.html"><img src="img/chinelas.jpg" alt="" class="chinelas"></a>
+                        <p class="group-name">Chinelas</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733; 
+                        <p class="description">Chinelas de qualidade</p>
+                    </div>
+                    <div>
+                        <img src="img/tecnologia.jpg" alt="">
+                        <p class="group-name">Produtos tecnológicos</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="description">Aparelhos tecnológicos, como: <br>carregadores, fones e etc</p>
+                    </div>
+                    <div>
+                        <img src="img/material.jpg" alt="">
+                        <p class="group-name">Material escolar</p>
+                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="description">Aqui é possível encontrar materiais utéis <br>no cotidiano escolar</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div id="info"class="gray-background">
+            <div class="header-inner-content">
+                <div class="header-bottom-side exclusive-container">
+                    <div class="header-bottom-side-left">
+                        <h2>O que é a FrancisCorp?</h2>
+                        <p>Na FrancisCorp, estamos comprometidos em tornar a vida escolar <br>
+                              mais conveniente e agradável para alunos, professores e pais.<br>
+                              Localizada estrategicamente dentro do ambiente escolar, <br>
+                              nossa loja oferece uma gama de produtos <br>
+                              diversos que podem atender às necessidades dos alunos.</p>
+                        </div>
+                    <div class="header-bottom-side-right"></div>
+                    <img src="img/photo1.png" alt="lorem imagem" class="logo2">
+                </div>
+            </div>
+            <div class="page-content"></div>
+        </div>
+
+        <div>
+            <div class="page-content" id="members">
+                <div>
+                    <h3  class="titulo-dos-grupos"> Membros</h3>
+                    <div class="subtitulo-linha"></div>
+                </div>
+                <div class="nosso-contato-members">
+                    <div class="members">
+                        <img src="img/savio.jpeg" alt="">
+                        <p class="name-member">Sávio Fernandes</p>
+                        <p>Contato:+55 88 8230-2207</p>
+                    </div>
+                    <div class="members">
+                        <img src="img/thales.jpeg" alt="">
+                        <p class="name-member">Thales Lins</p>
+                        <p>Contato:+55 88 9340-7973</p>
+                    </div>
+                    <div class="members">
+                        <img src="img/eu.jpg" alt="">
+                        <p class="name-member">José Rondiney</p>
+                        <p>Contato:+55 88 9406-9266</p>
+                    </div>
+                    <div class="members">
+                        <img src="" alt="">
+                        <p class="name-member">Joaquim Henrique</p>
+                        <p>Contato:+55 88 9204-7986</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="gray-background">
+    <div class="page-content footer-content">
+        <div class="simbol-ep">
+            <img src="img/school.jfif" alt="">
+            
+        </div>
+        <div class="logo-footer">
+            <h1 class="logo">Francis<span>Corp</span></h1>
+            <p>
+                Nosso objetivo é facilitar a vida dos estudantes <br>
+                com produtos bons, baratos e fáceis de se achar
+            </p>
+        </div>
+
+    </div>
+</footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const Menubutton = document.querySelector(".menu-button");
+
+        Menubutton.addEventListener("click", ()=> {
+            navbar.classList.toggle("show-menu");
+        })
+    </script>
+    <script src="js/animated.js"></script>
+    
+</body>
+</html>
